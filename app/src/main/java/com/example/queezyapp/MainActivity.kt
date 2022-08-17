@@ -8,8 +8,11 @@ import android.os.Handler
 import android.util.Log
 import android.view.inputmethod.InputBinding
 import android.widget.EditText
+import androidx.viewpager2.widget.ViewPager2
 import com.example.queezyapp.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
+import com.google.android.material.tabs.TabLayout
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+//        setupTabBar()
 
         binding = ActivityMainBinding.inflate(layoutInflater)
 
@@ -40,11 +44,77 @@ class MainActivity : AppCompatActivity() {
 
         } else {
                 Log.i("Clicked","$username")
+
+//Intent navigation (context from where intent happens, and where current activity should go to new one)
+                val intent = Intent(this, Categories::class.java)
+
+                startActivity(intent)
+
             }
         }
 
 
+//        Add navigation to settings
+
+        binding.imageView5.setOnClickListener{
+
+            val intent = Intent(this, Settings::class.java)
+            startActivity(intent)
+
+        }
+
+//        Bottom Navigation
+
+//        binding.playNav.setOnClickListener{
+//
+//            val intent = Intent(this, Categories::class.java)
+//            startActivity(intent)
+//
+//        }
+//
+//        binding.homeNav.setOnClickListener{
+//
+//            val intent = Intent(this, MainActivity::class.java)
+//            startActivity(intent)
+//
+//        }
+//
+//        binding.scoreNav.setOnClickListener{
+//
+//            val intent = Intent(this, FinalScore::class.java)
+//            startActivity(intent)
+//
+//        }
+
+
 
         supportActionBar?.hide()
+    }
+
+    private fun setupTabBar() {
+        val adapter = TabPageAdapter(this, tabLayout.tabCount)
+        viewPager.adapter = adapter
+
+        viewPager.registerOnPageChangeCallback(object: ViewPager2.OnPageChangeCallback()
+        {
+            override fun onPageSelected(position: Int) {
+                tabLayout.selectTab(tabLayout.getTabAt(position))
+            }
+        })
+
+        tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener
+        {
+            override fun onTabSelected(tab: TabLayout.Tab) {
+                viewPager.currentItem = tab.position
+            }
+
+            override fun onTabUnselected(tab: TabLayout.Tab?) {
+
+            }
+
+            override fun onTabReselected(tab: TabLayout.Tab?) {
+
+            }
+        })
     }
 }

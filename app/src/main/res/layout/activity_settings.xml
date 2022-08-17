@@ -12,11 +12,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/primary"
+        android:fontFamily="@font/pacifico"
         android:text="Home"
+        android:textAllCaps="false"
         android:textColor="@color/dark"
+
         android:textSize="16sp"
         android:textStyle="bold"
-
         app:cornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -33,10 +35,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="@color/white"
+        android:fontFamily="@font/pacifico"
         android:text="Reset Highscore"
+        android:textAllCaps="false"
+
         android:textColor="@color/error"
         android:textSize="16sp"
-
         android:textStyle="bold"
         app:cornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -10,12 +10,18 @@
         <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/drawable/ic_play.xml" value="0.2035" />
         <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/font/font.xml" value="0.11666666666666667" />
         <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/font/font2.xml" value="0.39166666666666666" />
-        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_categories.xml" value="0.33" />
-        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_final_score.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_categories.xml" value="0.25" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_final_score.xml" value="0.2" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_final_score_international.xml" value="0.5" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_final_score_true_or_false.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_international_quiz.xml" value="0.1585144927536232" />
         <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_introduction_quiz.xml" value="0.25" />
-        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_main.xml" value="0.23460410557184752" />
-        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_settings.xml" value="0.38697916666666665" />
-        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_settings.xml" value="0.22" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/activity_true_or_false_quiz.xml" value="0.1585144927536232" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/fragment_chart.xml" value="0.1" />
+        <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/neill/Documents/GitHub/QueezyApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1395" />
       </map>
     </option>

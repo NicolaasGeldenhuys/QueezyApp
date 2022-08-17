@@ -4,60 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".IntroductionQuiz">
+    tools:context=".TrueOrFalseQuiz">
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView18"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginEnd="36dp"-->
-<!--        android:layout_marginBottom="32dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.888"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/imageView23"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
-<!--        app:layout_constraintVertical_bias="0.973"-->
-<!--        app:srcCompat="@drawable/ic_leaderboard" />-->
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView23"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginEnd="180dp"-->
-<!--        android:layout_marginBottom="33dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.927"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/imageView30"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
-<!--        app:layout_constraintVertical_bias="1.0"-->
-<!--        app:srcCompat="@drawable/ic_play" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView18"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginEnd="36dp"-->
+    <!--        android:layout_marginBottom="32dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.888"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/imageView23"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
+    <!--        app:layout_constraintVertical_bias="0.973"-->
+    <!--        app:srcCompat="@drawable/ic_leaderboard" />-->
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView20"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="16dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/imageView9"-->
-<!--        app:layout_constraintVertical_bias="0.384"-->
-<!--        app:srcCompat="@drawable/ic_indicator" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView23"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginEnd="180dp"-->
+    <!--        android:layout_marginBottom="33dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.927"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/imageView30"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
+    <!--        app:layout_constraintVertical_bias="1.0"-->
+    <!--        app:srcCompat="@drawable/ic_play" />-->
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView30"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="32dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.132"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/textView26"-->
-<!--        app:layout_constraintVertical_bias="1.0"-->
-<!--        app:srcCompat="@drawable/ic_home" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView20"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/imageView9"-->
+    <!--        app:layout_constraintVertical_bias="0.384"-->
+    <!--        app:srcCompat="@drawable/ic_indicator" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView30"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="32dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.132"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView26"-->
+    <!--        app:layout_constraintVertical_bias="1.0"-->
+    <!--        app:srcCompat="@drawable/ic_home" />-->
 
     <RadioButton
         android:id="@+id/radioButton25"
@@ -275,7 +276,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="124dp"
         android:fontFamily="@font/pacifico"
-        android:text="Introduction"
+        android:text="True or False"
         android:textColor="@color/black"
         android:textSize="32sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -426,42 +427,44 @@
         app:strokeWidth="1dp" />
 
 
-<!--    <androidx.viewpager2.widget.ViewPager2-->
-<!--        android:id="@+id/viewPager"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_above="@+id/tabLayout"/>-->
+    <!--    <androidx.viewpager2.widget.ViewPager2-->
+    <!--        android:id="@+id/viewPager"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_above="@+id/tabLayout"/>-->
 
-<!--    <com.google.android.material.tabs.TabLayout-->
-<!--        android:id="@+id/tabLayout"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_alignParentBottom="true"-->
-<!--        android:background="#FFFFFF"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/button2"-->
-<!--        app:tabGravity="fill"-->
-<!--        app:tabIndicatorColor="@color/primary"-->
-<!--        app:tabIconTint="@color/black"-->
-<!--        app:tabMaxWidth="0dp"-->
-<!--        app:tabMode="fixed">-->
+    <!--    <com.google.android.material.tabs.TabLayout-->
+    <!--        android:id="@+id/tabLayout"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:background="#FFFFFF"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/button2"-->
+    <!--        app:tabGravity="fill"-->
+    <!--        app:tabIndicatorColor="@color/primary"-->
+    <!--        app:tabIconTint="@color/black"-->
+    <!--        app:tabMaxWidth="0dp"-->
+    <!--        app:tabMode="fixed">-->
 
-<!--        <com.google.android.material.tabs.TabItem-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:icon="@drawable/ic_home" />-->
+    <!--        <com.google.android.material.tabs.TabItem-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:icon="@drawable/ic_home" />-->
 
-<!--        <com.google.android.material.tabs.TabItem-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:icon="@drawable/ic_play" />-->
+    <!--        <com.google.android.material.tabs.TabItem-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:icon="@drawable/ic_play" />-->
 
-<!--        <com.google.android.material.tabs.TabItem-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:icon="@drawable/ic_leaderboard" />-->
+    <!--        <com.google.android.material.tabs.TabItem-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:icon="@drawable/ic_leaderboard" />-->
 
-<!--    </com.google.android.material.tabs.TabLayout>-->
+    <!--    </com.google.android.material.tabs.TabLayout>-->
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

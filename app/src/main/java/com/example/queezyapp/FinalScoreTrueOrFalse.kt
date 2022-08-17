@@ -3,25 +3,28 @@ package com.example.queezyapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.queezyapp.databinding.ActivityCategoriesBinding
 import com.example.queezyapp.databinding.ActivityFinalScoreBinding
+import com.example.queezyapp.databinding.ActivityFinalScoreInternationalBinding
+import com.example.queezyapp.databinding.ActivityFinalScoreTrueOrFalseBinding
+import com.example.queezyapp.databinding.ActivityTrueOrFalseQuizBinding
 
-class FinalScore : AppCompatActivity() {
+class FinalScoreTrueOrFalse : AppCompatActivity() {
 
-    private lateinit var binding: ActivityFinalScoreBinding
+    private lateinit var binding: ActivityFinalScoreTrueOrFalseBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
 
-        binding = ActivityFinalScoreBinding.inflate(layoutInflater)
+
+        binding = ActivityFinalScoreTrueOrFalseBinding.inflate(layoutInflater)
 
         setContentView(binding.root)
 
 //        Nav Back Button
         binding.imageView31.setOnClickListener{
 
-            val intent = Intent(this, IntroductionQuiz::class.java)
+            val intent = Intent(this, TrueOrFalseQuiz::class.java)
             startActivity(intent)
 
         }
@@ -50,6 +53,5 @@ class FinalScore : AppCompatActivity() {
 
         }
 
-        supportActionBar?.hide()
     }
 }

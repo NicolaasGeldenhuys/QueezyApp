@@ -4,61 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FinalScore">
+    tools:context=".FinalScoreInternational">
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView36"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginEnd="36dp"-->
-<!--        android:layout_marginBottom="32dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.888"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/imageView23"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
-<!--        app:layout_constraintVertical_bias="0.973"-->
-<!--        app:srcCompat="@drawable/ic_leaderboard" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView36"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginEnd="36dp"-->
+    <!--        android:layout_marginBottom="32dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.888"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/imageView23"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
+    <!--        app:layout_constraintVertical_bias="0.973"-->
+    <!--        app:srcCompat="@drawable/ic_leaderboard" />-->
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView37"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginEnd="180dp"-->
-<!--        android:layout_marginBottom="33dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.927"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/imageView30"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
-<!--        app:layout_constraintVertical_bias="1.0"-->
-<!--        app:srcCompat="@drawable/ic_play" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView37"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginEnd="180dp"-->
+    <!--        android:layout_marginBottom="33dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.927"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/imageView30"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
+    <!--        app:layout_constraintVertical_bias="1.0"-->
+    <!--        app:srcCompat="@drawable/ic_play" />-->
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView38"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="16dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.904"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/imageView9"-->
-<!--        app:layout_constraintVertical_bias="0.384"-->
-<!--        app:srcCompat="@drawable/ic_indicator" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView38"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.904"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/imageView9"-->
+    <!--        app:layout_constraintVertical_bias="0.384"-->
+    <!--        app:srcCompat="@drawable/ic_indicator" />-->
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView39"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="32dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.132"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/textView26"-->
-<!--        app:layout_constraintVertical_bias="1.0"-->
-<!--        app:srcCompat="@drawable/ic_home" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageView39"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginBottom="32dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.132"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView26"-->
+    <!--        app:layout_constraintVertical_bias="1.0"-->
+    <!--        app:srcCompat="@drawable/ic_home" />-->
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button4"
@@ -137,7 +137,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="124dp"
         android:fontFamily="@font/pacifico"
-        android:text="4"
+        android:text="2"
         android:textColor="@color/black"
         android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView33"
@@ -214,7 +214,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="124dp"
         android:fontFamily="@font/pacifico"
-        android:text="4"
+        android:text="2"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -249,7 +249,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="124dp"
         android:fontFamily="@font/pacifico"
-        android:text="New Highscore:"
+        android:text="Highscore:"
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -258,6 +258,5 @@
         app:layout_constraintStart_toEndOf="@+id/imageView31"
         app:layout_constraintTop_toBottomOf="@+id/imageView33"
         app:layout_constraintVertical_bias="0.133" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

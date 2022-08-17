@@ -162,66 +162,110 @@
         android:layout_width="280dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="6dp"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/pacifico"
         android:text="Start"
+        android:textAllCaps="false"
         android:textColor="@color/dark"
+        android:textSize="16sp"
         app:cornerRadius="40dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView8"
         app:layout_constraintEnd_toEndOf="@+id/imageView8"
         app:layout_constraintStart_toStartOf="@+id/imageView8"
+
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        android:backgroundTint="@color/primary"
         app:strokeColor="@color/black"
-        app:strokeWidth="1dp"
-        android:textSize="16sp"
+        app:strokeWidth="1dp" />
 
-        />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView9"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.167"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button2"-->
+<!--        app:layout_constraintVertical_bias="0.32"-->
+<!--        app:srcCompat="@drawable/ic_home" />-->
 
-    <ImageView
-        android:id="@+id/imageView9"
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView10"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.323"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView9"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button2"-->
+<!--        app:layout_constraintVertical_bias="0.32"-->
+<!--        app:srcCompat="@drawable/ic_play" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView11"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.555"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/imageView10"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button2"-->
+<!--        app:layout_constraintVertical_bias="0.32"-->
+<!--        app:srcCompat="@drawable/ic_leaderboard" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView12"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.167"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.384"-->
+<!--        app:srcCompat="@drawable/ic_indicator" />-->
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.167"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.32"
-        app:srcCompat="@drawable/ic_home" />
+        android:layout_above="@+id/tabLayout"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.32"
-        app:srcCompat="@drawable/ic_play" />
+        app:tabGravity="fill"
+        app:tabIconTint="@color/black"
+        app:tabIndicatorColor="@color/primary"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed">
 
-    <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.555"
-        app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.32"
-        app:srcCompat="@drawable/ic_leaderboard" />
+        <com.google.android.material.tabs.TabItem
 
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.167"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView9"
-        app:layout_constraintVertical_bias="0.384"
-        app:srcCompat="@drawable/ic_indicator" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_home" />
+
+        <com.google.android.material.tabs.TabItem
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_play" />
+
+        <com.google.android.material.tabs.TabItem
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/ic_leaderboard" />
+
+    </com.google.android.material.tabs.TabLayout>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
