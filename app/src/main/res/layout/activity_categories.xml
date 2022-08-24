@@ -8,58 +8,6 @@
     tools:layout_editor_absoluteX="0dp"
     tools:layout_editor_absoluteY="1dp">
 
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView26"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="33dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.132"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/textView26"-->
-<!--        app:layout_constraintVertical_bias="1.0"-->
-<!--        app:srcCompat="@drawable/ic_home" />-->
-
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView28"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="33dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.353"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/imageView26"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/textView27"-->
-<!--        app:layout_constraintVertical_bias="1.0"-->
-<!--        app:srcCompat="@drawable/ic_play" />-->
-
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView29"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="16dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.497"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/imageView9"-->
-<!--        app:layout_constraintVertical_bias="0.384"-->
-<!--        app:srcCompat="@drawable/ic_indicator" />-->
-
-<!--    <ImageView-->
-<!--        android:id="@+id/imageView27"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="33dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.681"-->
-<!--        app:layout_constraintStart_toEndOf="@+id/imageView28"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/textView27"-->
-<!--        app:layout_constraintVertical_bias="1.0"-->
-<!--        app:srcCompat="@drawable/ic_leaderboard" />-->
-
     <ImageView
         android:id="@+id/imageView24"
         android:layout_width="312dp"
@@ -370,11 +318,6 @@
         app:layout_constraintVertical_bias="0.0" />
 
 
-    <androidx.viewpager2.widget.ViewPager2
-        android:id="@+id/viewPager"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/tabLayout"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
