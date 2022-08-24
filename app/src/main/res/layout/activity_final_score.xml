@@ -259,5 +259,21 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView33"
         app:layout_constraintVertical_bias="0.133" />
 
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="124dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Neill"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toEndOf="@+id/imageView31"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.452" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

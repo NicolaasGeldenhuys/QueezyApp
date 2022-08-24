@@ -6,169 +6,140 @@
     android:layout_height="match_parent"
     tools:context=".InternationalQuiz">
 
-    <!--    <ImageView-->
-    <!--        android:id="@+id/imageView18"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginEnd="36dp"-->
-    <!--        android:layout_marginBottom="32dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.888"-->
-    <!--        app:layout_constraintStart_toEndOf="@+id/imageView23"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
-    <!--        app:layout_constraintVertical_bias="0.973"-->
-    <!--        app:srcCompat="@drawable/ic_leaderboard" />-->
 
-    <!--    <ImageView-->
-    <!--        android:id="@+id/imageView23"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginEnd="180dp"-->
-    <!--        android:layout_marginBottom="33dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.927"-->
-    <!--        app:layout_constraintStart_toEndOf="@+id/imageView30"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/radioButton24"-->
-    <!--        app:layout_constraintVertical_bias="1.0"-->
-    <!--        app:srcCompat="@drawable/ic_play" />-->
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/imageView20"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginBottom="16dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/imageView9"-->
-    <!--        app:layout_constraintVertical_bias="0.384"-->
-    <!--        app:srcCompat="@drawable/ic_indicator" />-->
-
-    <!--    <ImageView-->
-    <!--        android:id="@+id/imageView30"-->
-    <!--        android:layout_width="wrap_content"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_marginBottom="32dp"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintEnd_toEndOf="parent"-->
-    <!--        app:layout_constraintHorizontal_bias="0.132"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/textView26"-->
-    <!--        app:layout_constraintVertical_bias="1.0"-->
-    <!--        app:srcCompat="@drawable/ic_home" />-->
-
-    <RadioButton
-        android:id="@+id/radioButton25"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Swedish Meatballs"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <RadioGroup
+        android:id="@+id/radioGroup4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.737" />
+        app:layout_constraintTop_toBottomOf="@+id/textView31">
 
-    <RadioButton
-        android:id="@+id/radioButton26"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Spaghetti Bolognese"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.782" />
 
-    <RadioButton
-        android:id="@+id/radioButton24"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Oyster Juice"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.827" />
+        <RadioButton
+            android:id="@+id/radioButton24"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Oyster Juice"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.903" />
+
+        <RadioButton
+            android:id="@+id/radioButton25"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Swedish Meatballs"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.813" />
+
+        <RadioButton
+            android:id="@+id/radioButton26"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Spaghetti Bolognese"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.858" />
+
+    </RadioGroup>
 
     <TextView
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/pacifico"
         android:text="Question 5: What is spag bol? "
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintHorizontal_bias="0.228"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton23"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup4" />
 
-    <RadioButton
-        android:id="@+id/radioButton22"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Spaghetti Bolognese"
-        android:textSize="20sp"
+    <RadioGroup
+        android:id="@+id/radioGroup5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="55dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.598" />
+        app:layout_constraintTop_toBottomOf="@+id/textView32">
 
-    <RadioButton
-        android:id="@+id/radioButton21"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Swedish Meatballs"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.553" />
+        <RadioButton
+            android:id="@+id/radioButton21"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Swedish Meatballs"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.629" />
 
-    <RadioButton
-        android:id="@+id/radioButton23"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Oyster Juice"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.642" />
+        <RadioButton
+            android:id="@+id/radioButton22"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Spaghetti Bolognese"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.674" />
+
+        <RadioButton
+            android:id="@+id/radioButton23"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Oyster Juice"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.068"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.719" />
+
+    </RadioGroup>
 
     <TextView
         android:id="@+id/textView31"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/pacifico"
         android:text="Question 4: What is spag bol? "
         android:textColor="@color/black"
@@ -176,75 +147,41 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.215"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton20"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup3"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/pacifico"
         android:text="Question 2: What does BLT stand for? "
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.279"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <TextView
         android:id="@+id/textView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/pacifico"
         android:text="Question 3: What is spag bol? "
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.215"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton17"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
-    <RadioButton
-        android:id="@+id/radioButton4"
-        android:layout_width="240dp"
-        android:layout_height="28dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Scrumptious Slugs"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton2"
-        app:layout_constraintVertical_bias="0.0"
-        />
-
-    <RadioButton
-        android:id="@+id/radioButton2"
-        android:layout_width="240dp"
-        android:layout_height="28dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Frog Legs"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.047" />
 
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -259,7 +196,7 @@
         android:layout_width="34dp"
         android:layout_height="34dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginEnd="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -300,115 +237,184 @@
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintVertical_bias="0.0" />
 
-    <RadioButton
-        android:id="@+id/radioButton"
-        android:layout_width="240dp"
-        android:layout_height="29dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Edible land snails"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView13">
 
-    <RadioButton
-        android:id="@+id/radioButton13"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Baking, Layering, Toasting"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.189" />
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="240dp"
+            android:layout_height="29dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Edible land snails"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.0" />
 
-    <RadioButton
-        android:id="@+id/radioButton18"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Swedish Meatballs"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.373" />
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="240dp"
+            android:layout_height="28dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Frog Legs"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.047" />
 
-    <RadioButton
-        android:id="@+id/radioButton19"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Spaghetti Bolognese"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.416" />
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="240dp"
+            android:layout_height="28dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Scrumptious Slugs"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton2"
+            app:layout_constraintVertical_bias="0.0" />
 
-    <RadioButton
-        android:id="@+id/radioButton20"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Oyster Juice"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.461" />
+    </RadioGroup>
 
-    <RadioButton
-        android:id="@+id/radioButton16"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Bacon, Lettuce, Tomato"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintTop_toBottomOf="@+id/textView22">
 
-    <RadioButton
-        android:id="@+id/radioButton17"
-        android:layout_width="279dp"
-        android:layout_height="27dp"
-        android:scaleX="0.5"
-        android:scaleY="0.5"
-        android:text="Breadcrumbs, Layer, Toast"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Baking, Layering, Toasting"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.189" />
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Bacon, Lettuce, Tomato"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.234" />
+
+        <RadioButton
+            android:id="@+id/radioButton17"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Breadcrumbs, Layer, Toast"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.279" />
+
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:layout_constraintVertical_bias="0.279" />
+        app:layout_constraintTop_toBottomOf="@+id/textView30">
+
+        <RadioButton
+            android:id="@+id/radioButton18"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Swedish Meatballs"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.373" />
+
+        <RadioButton
+            android:id="@+id/radioButton19"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Spaghetti Bolognese"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.416" />
+
+        <RadioButton
+            android:id="@+id/radioButton20"
+            android:layout_width="279dp"
+            android:layout_height="27dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:text="Oyster Juice"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.461" />
+
+    </RadioGroup>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/button"
         android:layout_width="80dp"
         android:layout_height="40dp"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
         android:backgroundTint="@color/primary"
         android:fontFamily="@font/pacifico"
         android:text="Submit"
@@ -416,53 +422,12 @@
         android:textColor="@color/black"
         android:textSize="10sp"
         app:cornerRadius="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView18"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.851"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton24"
-        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup5"
         app:strokeColor="@color/black"
         app:strokeWidth="1dp" />
-
-
-    <!--    <androidx.viewpager2.widget.ViewPager2-->
-    <!--        android:id="@+id/viewPager"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="match_parent"-->
-    <!--        android:layout_above="@+id/tabLayout"/>-->
-
-    <!--    <com.google.android.material.tabs.TabLayout-->
-    <!--        android:id="@+id/tabLayout"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="wrap_content"-->
-    <!--        android:layout_alignParentBottom="true"-->
-    <!--        android:background="#FFFFFF"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/button2"-->
-    <!--        app:tabGravity="fill"-->
-    <!--        app:tabIndicatorColor="@color/primary"-->
-    <!--        app:tabIconTint="@color/black"-->
-    <!--        app:tabMaxWidth="0dp"-->
-    <!--        app:tabMode="fixed">-->
-
-    <!--        <com.google.android.material.tabs.TabItem-->
-    <!--            android:layout_width="wrap_content"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:icon="@drawable/ic_home" />-->
-
-    <!--        <com.google.android.material.tabs.TabItem-->
-    <!--            android:layout_width="wrap_content"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:icon="@drawable/ic_play" />-->
-
-    <!--        <com.google.android.material.tabs.TabItem-->
-    <!--            android:layout_width="wrap_content"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:icon="@drawable/ic_leaderboard" />-->
-
-    <!--    </com.google.android.material.tabs.TabLayout>-->
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

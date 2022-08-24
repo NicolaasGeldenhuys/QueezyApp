@@ -40,5 +40,7 @@ class InternationalQuiz : AppCompatActivity() {
 
         }
 
+        supportActionBar?.hide()
+
     }
 }

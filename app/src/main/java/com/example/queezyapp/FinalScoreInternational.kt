@@ -51,5 +51,7 @@ class FinalScoreInternational : AppCompatActivity() {
 
         }
 
+        supportActionBar?.hide()
+
     }
 }

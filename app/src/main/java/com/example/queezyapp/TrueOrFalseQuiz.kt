@@ -42,5 +42,7 @@ class TrueOrFalseQuiz : AppCompatActivity() {
 
         }
 
+        supportActionBar?.hide()
+
     }
 }

@@ -53,5 +53,7 @@ class FinalScoreTrueOrFalse : AppCompatActivity() {
 
         }
 
+        supportActionBar?.hide()
+
     }
 }

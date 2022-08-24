@@ -91,30 +91,5 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
     }
 
-    private fun setupTabBar() {
-        val adapter = TabPageAdapter(this, tabLayout.tabCount)
-        viewPager.adapter = adapter
 
-        viewPager.registerOnPageChangeCallback(object: ViewPager2.OnPageChangeCallback()
-        {
-            override fun onPageSelected(position: Int) {
-                tabLayout.selectTab(tabLayout.getTabAt(position))
-            }
-        })
-
-        tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener
-        {
-            override fun onTabSelected(tab: TabLayout.Tab) {
-                viewPager.currentItem = tab.position
-            }
-
-            override fun onTabUnselected(tab: TabLayout.Tab?) {
-
-            }
-
-            override fun onTabReselected(tab: TabLayout.Tab?) {
-
-            }
-        })
-    }
 }
