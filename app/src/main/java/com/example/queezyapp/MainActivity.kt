@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        val username = intent.getStringExtra("username").toString()
+
         binding.button2.setOnClickListener {
 
             val username = binding.editTextTextPersonName.text
@@ -48,6 +50,8 @@ class MainActivity : AppCompatActivity() {
 //Intent navigation (context from where intent happens, and where current activity should go to new one)
                 val intent = Intent(this, Categories::class.java)
 
+                intent.putExtra("username", username.toString())
+
                 startActivity(intent)
 
             }
@@ -63,28 +67,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-//        Bottom Navigation
 
-//        binding.playNav.setOnClickListener{
-//
-//            val intent = Intent(this, Categories::class.java)
-//            startActivity(intent)
-//
-//        }
-//
-//        binding.homeNav.setOnClickListener{
-//
-//            val intent = Intent(this, MainActivity::class.java)
-//            startActivity(intent)
-//
-//        }
-//
-//        binding.scoreNav.setOnClickListener{
-//
-//            val intent = Intent(this, FinalScore::class.java)
-//            startActivity(intent)
-//
-//        }
 
 
 

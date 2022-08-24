@@ -16,6 +16,8 @@ class InternationalQuiz : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        val username = intent.getStringExtra("username").toString()
+
         //  Navigation for back button
         binding.imageView13.setOnClickListener{
 
@@ -37,6 +39,8 @@ class InternationalQuiz : AppCompatActivity() {
 
             val intent = Intent(this, FinalScoreInternational::class.java)
             startActivity(intent)
+
+            intent.putExtra("username",username)
 
         }
 

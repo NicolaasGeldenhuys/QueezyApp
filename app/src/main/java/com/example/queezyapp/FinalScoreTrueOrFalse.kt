@@ -21,6 +21,8 @@ class FinalScoreTrueOrFalse : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        val username = intent.getStringExtra("username").toString()
+
 //        Nav Back Button
         binding.imageView31.setOnClickListener{
 
@@ -51,6 +53,10 @@ class FinalScoreTrueOrFalse : AppCompatActivity() {
             val intent = Intent(this, Categories::class.java)
             startActivity(intent)
 
+        }
+
+        fun updateUI(username: String) {
+            binding.textView44.text = "${username}"
         }
 
         supportActionBar?.hide()

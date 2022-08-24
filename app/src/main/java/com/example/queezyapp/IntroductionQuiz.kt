@@ -17,6 +17,12 @@ class IntroductionQuiz : AppCompatActivity() {
 
         setContentView(binding.root)
 
+
+        val username = intent.getStringExtra("username").toString()
+
+
+
+
 //  Navigation for back button
         binding.imageView13.setOnClickListener{
 
@@ -39,7 +45,10 @@ class IntroductionQuiz : AppCompatActivity() {
             val intent = Intent(this, FinalScore::class.java)
             startActivity(intent)
 
+//            Push Username to results screen
+            intent.putExtra("username",username)
         }
+
 
 
         supportActionBar?.hide()

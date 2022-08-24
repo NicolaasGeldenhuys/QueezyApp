@@ -17,6 +17,8 @@ class Categories : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        val username = intent.getStringExtra("username").toString()
+
         binding.imageView14.setOnClickListener{
 
             val intent = Intent(this, MainActivity::class.java)
@@ -31,28 +33,7 @@ class Categories : AppCompatActivity() {
 
         }
 
-        //        Bottom Navigation
 
-//        binding.playNav2.setOnClickListener{
-//
-//            val intent = Intent(this, Categories::class.java)
-//            startActivity(intent)
-//
-//        }
-//
-//        binding.homeNav2.setOnClickListener{
-//
-//            val intent = Intent(this, MainActivity::class.java)
-//            startActivity(intent)
-//
-//        }
-//
-//        binding.scoreNav2.setOnClickListener{
-//
-//            val intent = Intent(this, FinalScore::class.java)
-//            startActivity(intent)
-//
-//        }
 
 
 //        Navigate to Quizzes
@@ -63,11 +44,15 @@ class Categories : AppCompatActivity() {
             val intent = Intent(this, IntroductionQuiz::class.java)
             startActivity(intent)
 
+            intent.putExtra("username", username.toString())
+
         }
         binding.imageView19.setOnClickListener{
 
             val intent = Intent(this, IntroductionQuiz::class.java)
             startActivity(intent)
+
+            intent.putExtra("username", username.toString())
 
         }
 
@@ -77,11 +62,15 @@ class Categories : AppCompatActivity() {
             val intent = Intent(this, InternationalQuiz::class.java)
             startActivity(intent)
 
+            intent.putExtra("username", username.toString())
+
         }
         binding.imageView21.setOnClickListener{
 
             val intent = Intent(this, InternationalQuiz::class.java)
             startActivity(intent)
+
+            intent.putExtra("username", username.toString())
 
         }
 
@@ -91,11 +80,15 @@ class Categories : AppCompatActivity() {
             val intent = Intent(this, TrueOrFalseQuiz::class.java)
             startActivity(intent)
 
+            intent.putExtra("username", username.toString())
+
         }
         binding.imageView25.setOnClickListener{
 
             val intent = Intent(this, TrueOrFalseQuiz::class.java)
             startActivity(intent)
+
+            intent.putExtra("username", username.toString())
 
         }
 

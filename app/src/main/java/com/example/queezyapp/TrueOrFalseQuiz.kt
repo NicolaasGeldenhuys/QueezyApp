@@ -17,6 +17,7 @@ class TrueOrFalseQuiz : AppCompatActivity() {
 
         setContentView(binding.root)
 
+        val username = intent.getStringExtra("username").toString()
 
         //  Navigation for back button
         binding.imageView13.setOnClickListener{
@@ -39,6 +40,8 @@ class TrueOrFalseQuiz : AppCompatActivity() {
 
             val intent = Intent(this, FinalScoreTrueOrFalse::class.java)
             startActivity(intent)
+
+            intent.putExtra("username",username)
 
         }
 
